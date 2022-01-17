@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ex_9</title>
+</head>
+<body>
+  <script>
+    let admin;
+    let name = "Виталий Валентинович";
+    admin = name;
+    document.write("admin: " + admin + "<br>");
+    function myFunction() {
+      admin = "Маргарита Святославовна";
+      document.write("admin: " + admin + "<br>");
+      document.write("name: " + name + "<br>");
+    }
+  </script>
+
+  <button onclick="myFunction()">Нажми меня, please!</button>
+
+</body>
+</html>
